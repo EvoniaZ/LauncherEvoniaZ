@@ -4,7 +4,7 @@
     "version": "1.0.3",
     "description": "Dayz modded server launcher",
     "main": "src/app.js",
-    "author": "Riptiaz/Boulldogo/Vexato/Luuxis",
+    "author": "Riptiaz/Evonia",
     "settings": "https://evoniamc.web.boxtoplay.com/panellauncher",
     "engines": {
         "node": "20.x.x"
