@@ -86,7 +86,6 @@ class Home {
                 </div>`
             // news.appendChild(blockNews);
         }
-        let serverimg = document.querySelector('.server-img')
         serverimg.setAttribute("src", `${this.config.server_img}`)
         if(!this.config.server_img) {
             serverimg.style.display = "none";

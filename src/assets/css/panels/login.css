@@ -22,8 +22,8 @@
     border: none;
     margin: 2% 0;
     height: 2em;
-    background-color: rgba(87, 0, 0, 1);
-    box-shadow: 0 0 5px rgba(87, 0, 0, 1);
+    background-color: rgb(230, 157, 0);
+    box-shadow: 0 0 5px rgb(184, 104, 0);
     color: #121212;
     font: normal normal bold 19px/29px Poppins;
     cursor: pointer;
@@ -31,8 +31,8 @@
 
 
 .login-type-btn:hover {
-    background-color: #6e0000;
-    box-shadow: 0 0 5px rgba(87, 0, 0, 1);
+    background-color: #e28800;
+    box-shadow: 0 0 5px rgba(230, 157, 0);
 }
 
 .login-type-btn:disabled {
@@ -99,16 +99,16 @@
     border: none;
     margin: 2% 0;
     height: 2em;
-    background-color: rgba(87, 0, 0, 1);
-    box-shadow: 0 0 5px rgba(87, 0, 0, 1);
+    background-color: rgba(230, 157, 0);
+    box-shadow: 0 0 5px rgba(230, 157, 0);
     color: #121212;
     font: normal normal bold 19px/29px Poppins;
     cursor: pointer;
 }
 
 .login-btn:hover {
-    background-color: rgba(87, 0, 0, 1);
-    box-shadow: 0 0 5px rgba(87, 0, 0, 1);
+    background-color: rgb(255, 174, 0);
+    box-shadow: 0 0 5px rgba(230, 157, 0);
 }
 
 .cancel {
@@ -144,8 +144,8 @@
     border: none;
     margin: 2% 0;
     height: 2em;
-    background-color: rgba(87, 0, 0, 1);
-    box-shadow: 0 0 5px rgba(87, 0, 0, 1);
+    background-color: rgba(230, 157, 0);
+    box-shadow: 0 0 5px rgba(230, 157, 0);
     color: #121212;
     font: normal normal bold 19px/29px Poppins;
     cursor: pointer;

@@ -15,8 +15,6 @@ body {
                 url("../images/background/light.jpg") black no-repeat center center;
     background-size: cover;
     backdrop-filter: blur(5px); /* Effet de flou pour un arrière-plan moderne */
-    border-radius: 15px; /* Ajout de bords arrondis */
-    overflow: hidden; /* Pour éviter que le contenu ne dépasse des bords arrondis */
 }
 
 img {
@@ -35,8 +33,6 @@ img {
     z-index: 11;
     display: none;
     backdrop-filter: blur(10px); /* Effet de flou pour la barre de drag */
-    border-top-left-radius: 15px; /* Bords arrondis en haut à gauche */
-    border-top-right-radius: 15px; /* Bords arrondis en haut à droite */
 }
 
 .frame {
@@ -236,4 +232,18 @@ img {
     user-select: none; /* Empêche la sélection du texte */
     pointer-events: none; /* Empêche les interactions avec le texte */
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Ombre portée pour une meilleure lisibilité */
+    display: flex; /* Utilisation de flexbox pour aligner l'icône et le texte */
+    align-items: center; /* Alignement vertical au centre */
+    gap: 8px; /* Espace entre l'icône et le texte */
+}
+
+.launcher-title::before {
+    content: ""; /* Contenu vide pour le pseudo-élément */
+    display: inline-block;
+    width: 20px; /* Largeur de l'icône */
+    height: 20px; /* Hauteur de l'icône */
+    background-image: url("../images/icon.png"); /* Chemin de l'icône */
+    background-size: cover; /* Ajuste l'image à la taille du conteneur */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5)); /* Ombre portée pour l'icône */
 }
