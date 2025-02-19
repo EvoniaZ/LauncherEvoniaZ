@@ -15,6 +15,8 @@ body {
                 url("../images/background/light.jpg") black no-repeat center center;
     background-size: cover;
     backdrop-filter: blur(5px); /* Effet de flou pour un arrière-plan moderne */
+    border-radius: 15px; /* Ajout de bords arrondis */
+    overflow: hidden; /* Pour éviter que le contenu ne dépasse des bords arrondis */
 }
 
 img {
@@ -33,6 +35,8 @@ img {
     z-index: 11;
     display: none;
     backdrop-filter: blur(10px); /* Effet de flou pour la barre de drag */
+    border-top-left-radius: 15px; /* Bords arrondis en haut à gauche */
+    border-top-right-radius: 15px; /* Bords arrondis en haut à droite */
 }
 
 .frame {
@@ -65,7 +69,7 @@ img {
 }
 
 .icon-close:hover {
-    background: #c71d07;
+    background: #e4ba00;
 }
 
 .icon-minimize:hover,

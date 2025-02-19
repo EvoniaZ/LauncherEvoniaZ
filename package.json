@@ -1,10 +1,10 @@
 {
-    "name": "EvoniaZ",
-    "preductname": "EvoniaZ Launcher",
+    "name": "Evonia - Blockémon",
+    "preductname": "Blockémon Launcher",
     "version": "1.0.4",
-    "description": "Dayz modded server launcher",
+    "description": "Pokemon modded server launcher",
     "main": "src/app.js",
-    "author": "Riptiaz/Evonia",
+    "author": "Evonia",
     "settings": "https://evoniamc.web.boxtoplay.com/panellauncher",
     "engines": {
         "node": "20.x.x"
@@ -21,6 +21,7 @@
     "dependencies": {
         "discord-rpc": "^4.0.1",
         "electron-updater": "^6.1.4",
+        "EvoniaZ": "file:",
         "https": "^1.0.0",
         "minecraft-java-core-azbetter": "^3.11.3",
         "node-fetch": "^2.6.7",
