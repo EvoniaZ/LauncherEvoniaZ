@@ -1,7 +1,7 @@
 {
-    "name": "Blockémon",
+    "name": "Blockemon",
     "preductname": "Blockemon Launcher",
-    "version": "2.0",
+    "version": "1.0.10",
     "description": "Pokemon modded server launcher",
     "main": "src/app.js",
     "author": "Evonia",
